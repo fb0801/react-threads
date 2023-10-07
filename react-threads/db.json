@@ -61,6 +61,31 @@
                 }
     ],
     "threads": [
-
+        {
+            "id": 0,
+            "timestamp": "Sat Oct 07 2023 18:36:55 GMT+0100 (British Summer Time) {}",
+            "thread_from": "88bb04da-f2fc-4176-ae1f-e51209609823",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "only cool people use this",
+            "likes":[
+                {
+                    "uuid": "84bb04da-f2fc-4176-ae1f-e51209609823"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "timestamp": "Sat Oct 07 2023 20:36:55 GMT+0100 (British Summer Time) {}",
+            "thread_from": "88bb04da-f2fc-4176-ae1f-e51209609823",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "I was wrong",
+            "likes":[
+                {
+                    "uuid": "84bb04da-f2fc-4176-ae1f-e51209609823"
+                }
+            ]
+        }
     ]
 }
