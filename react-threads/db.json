@@ -1,0 +1,66 @@
+{
+    "users": [
+        {
+        "id": 1,
+        "user_uuid": "88bb04da-f2fc-4176-ae1f-e51209609823",
+        "username":"CodeWithFarhan",
+        "handle":"FarhanCode",
+        "bio":"coding and darksouls",
+        "link":"",
+        "img": "",
+        "instagram_url":"",
+        "followers": [
+            {
+                "user_uuid": "61153b1a-df7c-4a2c-9ed3-74856d6cb734"
+            },
+            {
+                "user_uuid": "1d2707bb-942d-4872-b33e-f3002f308bb2"
+            },
+            {
+                "user_uuid": "84bb04da-f2fc-4176-ae1f-e51209609823"
+            }
+        ]
+        },
+        {
+            "id": 1,
+            "user_uuid": "89bb04da-f2fc-4176-ae1f-e51209609823",
+            "username":"bobburgers",
+            "handle":"bobburger",
+            "bio":"burgers and food",
+            "link":"",
+            "img": "",
+            "instagram_url":"",
+            "followers": [
+                {
+                    "user_uuid": "88bb04da-f2fc-4176-ae1f-e51209609823"
+                },
+                {
+                    "user_uuid": "1d2707bb-942d-4872-b33e-f3002f308bb2"
+                },
+                {
+                    "user_uuid": "47eb0c7b-7629-47f8-828a-80f34989c5d6"
+                }
+            ]
+            },
+            {
+                "id": 3,
+                "user_uuid": "84bb04da-f2fc-4176-ae1f-e51209609823",
+                "username":"CodeWithAnia",
+                "handle":"AniaCode",
+                "bio":"coding",
+                "link":"",
+                "img": "",
+                "instagram_url":"",
+                "followers": [
+                    {
+                        "user_uuid": "88bb04da-f2fc-4176-ae1f-e51209609823"
+                    }
+                    
+                   
+                ]
+                }
+    ],
+    "threads": [
+
+    ]
+}

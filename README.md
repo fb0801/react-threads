@@ -16,3 +16,5 @@ VScode, REACT
 https://www.toptal.com/developers/gitignore/
 
 https://www.youtube.com/watch?v=J7HMa48mU3E&pp=ygUNcmVhY3QgdGhyZWFkcw%3D%3D
+
+https://www.uuidgenerator.net/
