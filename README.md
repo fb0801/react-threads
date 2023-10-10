@@ -22,3 +22,5 @@ https://www.uuidgenerator.net/
 https://iconmonstr.com/globe-3-svg/
 
 https://iconmonstr.com/instagram-11-svg/
+
+https://www.compart.com/en/unicode/U+2022
