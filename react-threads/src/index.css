@@ -22,3 +22,9 @@ body {
 svg{
   fill: rgb(250,250,250)
 }
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
