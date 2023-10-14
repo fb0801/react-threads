@@ -61,7 +61,11 @@ const App = () => {
       viewThreadsFeed= {viewThreadsFeed}
       setViewThreadFeed ={setViewThreadFeed}
       />
-    <Feed/>
+    <Feed
+    user={user}
+    filteredThreads={filteredThreads}
+    
+    />
     <PopUp/>
     </div>}
     </>
