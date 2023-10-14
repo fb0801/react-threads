@@ -100,6 +100,12 @@ useEffect(() => {
     getThreadsFeed
   }, [user, threads, viewThreadsFeed])
 
+  const handleClick = () => {
+    setPopUpFeedThreads(null)
+    setInteractingThread(null)
+    setOpenPopUp(true)
+  }
+
   return (
     <>
     {user && <div className="app">
@@ -126,10 +132,9 @@ useEffect(() => {
         setText={setText}
         postThread={postThread}
     />}
-    <div onClick={() => setOpenPopUp(true)}>
+    <div onClick={handleClick}>
       <writeIcon/>
     </div>
-
     </div>}
     
     </>
