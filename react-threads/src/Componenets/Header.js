@@ -1,20 +1,20 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({user}) => {
   return (
     <header>
         <div className='info-container'>
             <div className='user-info-container'>
-                <h1>username</h1>
-                <p>handle <span className='threads-info'>threads.net</span></p>
+                <h1>{user.username}</h1>
+                <p>{user.handle}<span className='threads-info'>threads.net</span></p>
             </div>
             <div className='img-container'>
-              <img src="" alt='profile image'/>
+              <img src={user.img} alt='profile image'/>
             </div>
         </div>
-        <p>bio</p>
+        <p>{user.bio}</p>
         <div className='sub-info-container'>
-          <p className='sub-text'>x followers • <a href="">link</a></p>
+          <p className='sub-text'>{user.followers.length} followers • <a href={user.link}>{user.link.replace('https://www.',"")}</a></p>
         </div>
         <button className='primary' onClick={() =>
         navigator.clipboard.writeText('')}>
