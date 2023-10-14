@@ -70,7 +70,7 @@
             "text": "only cool people use this",
             "likes":[
                 {
-                    "uuid": "84bb04da-f2fc-4176-ae1f-e51209609823"
+                    "user_uuid": "84bb04da-f2fc-4176-ae1f-e51209609823"
                 }
             ]
         },
@@ -83,7 +83,7 @@
             "text": "I was wrong",
             "likes":[
                 {
-                    "uuid": "84bb04da-f2fc-4176-ae1f-e51209609823"
+                    "user_uuid": "84bb04da-f2fc-4176-ae1f-e51209609823"
                 }
             ]
         }

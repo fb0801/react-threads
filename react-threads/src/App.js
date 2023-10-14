@@ -67,6 +67,7 @@ const App = () => {
     user={user}
     setOpenPopUp={setOpenPopUp}
     filteredThreads={filteredThreads}
+    getThreads={getThreads}
     
     />
     {openPopUp &&

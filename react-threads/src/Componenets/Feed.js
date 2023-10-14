@@ -1,7 +1,7 @@
 import React from 'react'
 import Thread from './Thread'
 
-const Feed = ({user, setOpenPopUp,filteredThreads}) => {
+const Feed = ({user, setOpenPopUp,filteredThreads, getThreads}) => {
   return (
     <div className='feed'>
       {filteredThreads?.map(filteredThread => 
@@ -10,6 +10,7 @@ const Feed = ({user, setOpenPopUp,filteredThreads}) => {
       setOpenPopUp={setOpenPopUp} 
       user={user}
        filteredThread={filteredThread}
+       getThreads={getThreads}
        />)}
     </div>
   )
