@@ -3,13 +3,15 @@ import Nav from './Componenets/Nav'
 import Header from './Componenets/Header'
 import Feed from './Componenets/Feed'
 import PopUp from './Componenets/PopUp'
+import writeIcon from './Componenets/WriteIcon'
 
 const App = () => {
     const userID = ""
     const [user, setUser] = useState(null)
     const [threads, SetThreads] = useState(null)
     const [viewThreadsFeed, setViewThreadFeed] = useState(True)
-    const [filteredThreads, setFilteredThreads] = useState(null)    
+    const [filteredThreads, setFilteredThreads] = useState(null)
+    const [openPopUp, setOpenPopUp] = useState(false)    
 
     const getUser = async () => {
     try {
@@ -63,11 +65,21 @@ const App = () => {
       />
     <Feed
     user={user}
+    setOpenPopUp={setOpenPopUp}
     filteredThreads={filteredThreads}
     
     />
-    <PopUp/>
+    {openPopUp &&
+    <PopUp
+        user = {user}
+        setOpenPopUp={setOpenPopUp}
+    />}
+    <div onClick={() => setOpenPopUp(true)}>
+      <writeIcon/>
+    </div>
+
     </div>}
+    
     </>
   );
 }
